@@ -1,8 +1,7 @@
-// eslintrc.js
 module.exports = {
   env: {
-    browser: true,
-    es6: true,
+    browser: false,
+    es2021: true,
   },
   extends: [
     'plugin:react/recommended',
@@ -19,7 +18,6 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: 'module',
   },
-  "parser": "babel-eslint",
   plugins: [
     'react',
   ],
